@@ -7,15 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Run pwd
-      run: pwd
-    - name: Run cd
-      run: cd ../
-    - name: Run pwd
-      run: pwd
-    - name: Run cd
-      run: cd ../
-    - name: Run pwd
-      run: pwd
-    - name: Run ls -al
-      run: ls -al
-    
+      run: 
+        pwd
+        cd ../
+        ls -al
+        cd ../
+        ls -al
+        cd ../
+        ls -al
