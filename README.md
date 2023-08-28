@@ -1,9 +1,16 @@
+# 링크
+### 깃허브 doc
+[깃허브 doc action](https://docs.github.com/ko/actions)
 
+---
+### 마크다운
+[마크다운](https://www.markdownguide.org/basic-syntax/)  
+[마크다운 Mermaid](http://mermaid.js.org/syntax/timeline.html) 
+
+---
 # git_action
 git action 사용법
 
-
-[깃허브 doc action](https://docs.github.com/ko/actions)
 
 
 # action 이란 
@@ -23,6 +30,7 @@ Git 이벤트가 발생할때 작업하는 것
 
 ### 위치
 - ``` .github/workflows/ ``` 에 만든다 
+
 
 
 ``` bash
