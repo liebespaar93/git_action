@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-  check:
+  check-compare-branch:
     runs-on: ubuntu-latest
     steps:
       - name: Check compare branch
