@@ -1,11 +1,11 @@
-name: Restrict merge from develop to main
+name: main just dev
 
 on:
   pull_request:
     branches: [ main ]
 
 jobs:
-  check:
+  check-main:
     runs-on: ubuntu-latest
     steps:
       - name: main just dev
